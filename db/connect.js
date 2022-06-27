@@ -5,6 +5,4 @@ const connectDB = (url) => {
     // mongoose.connect(connectionString, { useNewUrlParser: true }).then(() => { console.log('mongoDB is connected...') }).catch((err) => { console.log(err) });
 }
 
-// const connectionString = 'mongodb+srv://anilducat:Jitin@75308@nodeexpressprojects.cb4ca2f.mongodb.net/03-TASK-MANAGER?retryWrites=true&w=majority'
-
 module.exports = connectDB
